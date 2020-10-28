@@ -8,7 +8,7 @@ pwd=input('Enter Password:')
   
 driver = webdriver.Chrome(ChromeDriverManager().install()) 
 driver.get('https://www.instagram.com/') 
-print ("Opened facebook") 
+print ("Opened instagram") 
 sleep(1) 
   
 username_box = driver.find_element_by_name('username')
